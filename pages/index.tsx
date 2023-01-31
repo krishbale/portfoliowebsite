@@ -40,8 +40,8 @@ export default function Home() {
           </nav>
           <div className=' text-center p-10 dark:text-white '>
             <h2 className=' text-5xl py-2 text-teal-600  font-medium md:text-6xl'>Balkrishna Pokharel</h2>
-            <h3 className='text-2xl py-2 md:text-3xl'>Developer and Designer</h3>
-            <p className='text-md py-3 leading-8 text-gray-800 md:text-lg max-w- mx-auto dark:text-white'>Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration.</p>
+            <h3 className='text-2xl py-2 md:text-3xl'>FULL STACK Developers</h3>
+            <p className='text-md py-3 leading-8 text-gray-800 md:text-lg max-w- mx-auto dark:text-white'>CS & IT Students</p>
 
           </div>
           <div className='text-5xl flex justify-center gap-16 text-gray-600 dark:text-white'>
@@ -55,15 +55,15 @@ export default function Home() {
         </section>
         <section>
           <div className='dark:text-white'>
-            <h3 className='text-3xl py-1 leading-8 text-gray-800 dark:text-white'>Services I offer</h3>
-            <p>Synonymsfor Service it offers 10 other terms for service it offers- words and phrases with similar <span className='text-teal-500'>Develpoping</span> meaning Lists synonyms antonyms definitions sentences thesaurus phrases suggest new service offering offer of service security <span className='text-teal-500'> Designing</span> </p>
-            <p>practices service offer service offered service offerings service that offers service to offer services offered</p>
+            <h3 className='text-3xl py-1 leading-8 text-gray-800 dark:text-white'>About me</h3>
+            <p>Balkrishna Pokharel versatile web developers and programmers due to his extensive history in <span className='text-teal-500'>programming</span> and web design. His dedication to continuously learning about new web design trends makes him the beneficial  and valuable for any company.   </p>
+            <p>With 4 years of<span className='text-teal-500'> experience </span> and a studing bachlor 's in Computer Science & IT , his learning can help customers modernize with websites and appeal to expanding customer expectations.</p>
           </div>
           <div className='lg:flex gap-10 dark:text-white'>
             <div className='text-center shadow-lg p-10 rounded-xl  my-10  '>
               <Image className='mx-auto'  src={design} width="100" height={100} alt=""/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Design</h3>
-              <p className='py-2'>Creating elegant design for your needs and requirements specially using 3d and blender</p>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Designing</h3>
+              <p className='py-2'>Creating elegant design for your needs and requirements specially using for web development</p>
               <h4 className='py-4 text-teal-600'>Design Tools I use</h4>
               <p className='text-gray-800 py-1 dark:text-white '>Photoshop</p>
               <p className='text-gray-800 py-1  dark:text-white '>Illustrator</p>
@@ -73,23 +73,23 @@ export default function Home() {
             </div >
             <div className='text-center shadow-lg p-10 rounded-xl  my-10 '>
               <Image className='mx-auto'   src={code} width="100" height={100} alt=""/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Design</h3>
-              <p className='py-2'>Creating elegant design for your needs and requirements specially using 3d and blender</p>
-              <h4 className='py-4 text-teal-600'>Design Tools I use</h4>
-              <p className='text-gray-800 py-1  dark:text-white '>Photoshop</p>
-              <p className='text-gray-800 py-1  dark:text-white '>Illustrator</p>
-              <p className='text-gray-800 py-1  dark:text-white '>Figma</p>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Coding</h3>
+              <p className='py-2'> Clean  Coding   with responsive design and industry standard  </p>
+              <h4 className='py-4 text-teal-600'>Main Coding Technology/Platform  </h4>
+              <p className='text-gray-800 py-1  dark:text-white '>React Redux </p>
+              <p className='text-gray-800 py-1  dark:text-white '>Express Node  </p>
+              <p className='text-gray-800 py-1  dark:text-white '>MongoDB  Firebase</p>
 
 
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl  my-10'>
               <Image className='mx-auto'  src={consulting} width="100" height={100} alt=""/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Design</h3>
-              <p className='py-2'>Creating elegant design for your needs and requirements specially using 3d and blender</p>
-              <h4 className='py-4 text-teal-600'>Design Tools I use</h4>
-              <p className='text-gray-800 py-1  dark:text-white '>Photoshop</p>
-              <p className='text-gray-800 py-1 dark:text-white'   >Illustrator</p>
-              <p className='text-gray-800 py-1  dark:text-white '>Figma</p>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Testing </h3>
+              <p className='py-2'>Strong Debugging skills , and problems solving ideas and skills  </p>
+              <h4 className='py-4 text-teal-600'>Testing and deployments</h4>
+              <p className='text-gray-800 py-1  dark:text-white '>Bug Testing</p>
+              <p className='text-gray-800 py-1 dark:text-white'  >Deployments </p>
+              <p className='text-gray-800 py-1  dark:text-white '>Maintainance</p>
 
 
             </div>
@@ -98,8 +98,8 @@ export default function Home() {
         <section>
           <div className='dark:text-white'>
             <h3 className='text-3xl py-1'>Porfolio</h3>
-            <p>Synonymsfor Service it offers 10 other terms for service it offers- words and phrases with similar <span className='text-teal-500'>Develpoping</span> meaning Lists synonyms antonyms definitions sentences thesaurus phrases suggest new service offering offer of service security <span className='text-teal-500'> Designing</span> </p>
-            <p>practices service offer service offered service offerings service that offers service to offer services offered</p>
+            <p> Projects  completed in <span className='text-teal-500'>Web Development</span> and <span className='text-teal-500'> Designing. </span></p>
+            <p></p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={web1} alt="" /></div>
