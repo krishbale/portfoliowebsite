@@ -7,21 +7,9 @@ import Image from 'next/image';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-import ecom1 from '../public/ecom1.png';
-import ecom2 from '../public/ecom2.png';
-import ecom3 from '../public/ecom3.png';
+
 import ecom4 from '../public/ecom4.png';
 import ecom5 from '../public/ecom5.png';
-import ecom6 from '../public/ecom6.png';
-
-import ecom7 from '../public/ecom7.png';
-import ecom8 from '../public/ecom8.png';
-import ecom9 from '../public/ecom9.png';
-import ecom10 from '../public/ecom10.png';
-import ecom11 from '../public/ecom11.png';
-import ecom12 from '../public/ecom12.png';
-import ecom13 from '../public/ecom13.png';
-import ecom14 from '../public/ecom14.png';
 
 
 import profile from '../public/profile.png'
@@ -53,7 +41,7 @@ export default function Home() {
           </nav>
           <div className=' text-center p-10 dark:text-white '>
             <h2 className=' text-5xl py-2 text-teal-600  font-medium md:text-6xl'>Balkrishna Pokharel</h2>
-            <h3 className='text-2xl py-2 md:text-3xl'>React  Developer</h3>
+            <h3 className='text-2xl py-2 md:text-3xl'>React  Developer  || Node Developer</h3>
             <p className='text-md py-3 leading-8 text-gray-800 md:text-lg max-w- mx-auto dark:text-white'>CS & IT Students</p>
 
           </div>
@@ -76,21 +64,27 @@ export default function Home() {
         <section>
           <div className='dark:text-white'>
             <h3 className='text-3xl py-1 leading-8 text-gray-800 dark:text-white'>About me</h3>
-                          <p> <span className='text-teal-500'>Passionate</span> Web Developer with a total of 1 year of experience,
-              proficient in designing and developing Web Application.<span className='text-teal-500'>Hard
-              working</span>  and  passionate person who is looking for a company with
+                          <p> 
+              MERN Stack Developer  with a total of 1 year of experience,
+              proficient in designing and developing Web Application using  React as a Frontend Library 
+              and  Node JS as a Backend Engine.
+             
+              </p>
+              <p> Passionate and Hardworking person who is looking for a company with
               an open environment and a great culture where he can turn his
               knowledge into meaningful work while serving the company.
-              </p>
-            <p>With 4 years of knowledge in Bachlor Degree of CS & IT and is <span className='text-teal-500'> dedication </span>
+              
+              </p><br />
+            <p>With 4 years of knowledge in Bachlor Degree of CSIT &  Now looking for an internship/fresher job 
+            
             to continuously learning about new web design trends makes him the beneficial and valuable for any company. </p>
           </div>
           <div className='lg:flex gap-10 dark:text-white'>
             <div className='text-center shadow-lg p-10 rounded-xl  my-10  '>
               <Image className='mx-auto'  src={design} width="100" height={100} alt=""/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Designing</h3>
-              <p className='py-2'>Creating elegant design for your needs and requirements specially using for web development</p>
-              <h4 className='py-4 text-teal-600'>Design Tools I use</h4>
+              <p className='py-2'>Replicating elegant design into beatiful UX/UI according to the  requirements specially using for web development</p>
+              <h4 className='py-4 text-teal-600'>Familiar Design Tools </h4>
               <p className='text-gray-800 py-1 dark:text-white '>Figma</p>
               <p className='text-gray-800 py-1  dark:text-white '>Canava</p>
               <p className='text-gray-800 py-1  dark:text-white '>Illustrators</p>
@@ -110,12 +104,12 @@ export default function Home() {
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl  my-10'>
               <Image className='mx-auto'  src={consulting} width="100" height={100} alt=""/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Testing </h3>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Testing & Deplyoment </h3>
               <p className='py-2'>Strong Debugging skills , and problems solving ideas and skills  </p>
               <h4 className='py-4 text-teal-600'>Testing and Optimization</h4>
-              <p className='text-gray-800 py-1  dark:text-white '>Refactoring</p>
-              <p className='text-gray-800 py-1 dark:text-white'  >API Testing Using PostMan </p>
-              <p className='text-gray-800 py-1  dark:text-white '>Manual Software Testing </p>
+              <p className='text-gray-800 py-1  dark:text-white '>Refactoring & Manual Testing </p>
+              <p className='text-gray-800 py-1 dark:text-white'  >API Testing Using PostMan, </p>
+              <p className='text-gray-800 py-1  dark:text-white '>Webpack </p>
 
 
             </div>
@@ -124,44 +118,23 @@ export default function Home() {
         <section>
           <div className='dark:text-white'>
             <h3 className='text-3xl py-1'>Porfolio</h3>
-            <p> You can find the project details in  <Link href={"https://github.com/krishbale"}><span  className='text-teal-500'>Github.</span></Link> Some of the project  snippets completed in <span className='text-teal-500'>Web Developement </span>are given below:-</p>
-            <p></p>
+            <p className='dark:text-white'> Some of the project  snippets completed in <span className='text-teal-500'>Web Developement </span>are given below:-</p>
+            <p>Nevertheless DemoLink are connected with image.</p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           
             <Link href={"https://nextflixdeploy-4hmt.vercel.app/auth"}>
-            
+            <p className='dark:text-white'>Full Stack Application Using Tailwind</p>
             <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom4} alt="" /></div>
           
-            {/* <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom6} alt="" /></div> */}
-            {/* <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom5} alt="" /></div> */}
-            {/* <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom7} alt="" /></div> */}
             </Link>
-            {/* <Link href={"https://github.com/krishbale/reduxtoolkitusertable"}>
+            <Link href={"https://gpt4deploy.vercel.app/"}>
+            <p className='dark:text-white'>FrontEnd Static Applicaton using React component & Responsive CSS BEM </p>
+            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom5} alt="" /></div>
+          
+            </Link>
             
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom8} alt="" /></div>
-            </Link> */}
-            {/* <Link href={"https://github.com/krishbale/Travel-Log-App"}>
-          
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom9} alt="" /></div>
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom10} alt="" /></div>
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom11} alt="" /></div>
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom12} alt="" /></div>
-            </Link> */}
-            {/* <Link href={"https://github.com/krishbale/Chatapp-with-socket-io-and-node-js"}>
-    
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom13} alt="" /></div>
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom14} alt="" /></div>
-
-            </Link> */}
-            {/* <Link href={"https://github.com/krishbale/final_year_projects"}>
-            
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom1} alt="" /></div>
-          
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom2} alt="" /></div>
-          
-            <div className=' basis-1/3 flex-1 '><Image className=' rounded-lg object-cover w-100% h-100%' layout='responsive'  src={ecom3} alt="" /></div>
-            </Link> */}
+         <p className='dark:text-white'> You can find the project details in  <Link href={"https://github.com/krishbale"}><span  className='text-teal-500'>Github.</span></Link></p>
             </div>
         </section>
 
