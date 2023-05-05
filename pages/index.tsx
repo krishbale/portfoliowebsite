@@ -119,7 +119,7 @@ export default function Home() {
           <div className='dark:text-white'>
             <h3 className='text-3xl py-1'>Porfolio</h3>
             <p className='dark:text-white'> Some of the project  snippets completed in <span className='text-teal-500'>Web Developement </span>are given below:-</p>
-            <p>Nevertheless DemoLink are connected with image.</p>
+            <p>Nevertheless, DemoLink are connected with image.</p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           
