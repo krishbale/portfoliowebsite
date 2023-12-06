@@ -76,6 +76,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+          {/* git reset hard */}
           {/* <section>
             <div className="dark:text-white">
               <h3 className="text-3xl py-1 leading-8 text-gray-800 dark:text-white">
