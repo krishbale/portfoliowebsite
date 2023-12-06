@@ -13,7 +13,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function Home() {
-  const [darkmode, setDarkmode] = useState(false);
+  const [darkmode, setDarkmode] = useState(true);
   return (
     <>
       <div className={darkmode ? "dark" : ""}>
@@ -25,7 +25,7 @@ export default function Home() {
         </Head>
         <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
           <section className="min-h-screen">
-            <nav className="py-10 mb-12 flex justify-between dark:text-white">
+            <nav className=" py-10 mb-12 flex justify-between dark:text-white">
               <h1 className="text-xl font-burtons">Balkrishna Pokharel</h1>
               <ul className="flex items-center">
                 <li className=" cursor-pointer text-2xl">
@@ -41,39 +41,43 @@ export default function Home() {
                 </li>
               </ul>
             </nav>
-            <div className=" text-center p-10 dark:text-white ">
-              <h2 className=" text-5xl py-2 text-teal-600  font-medium md:text-6xl">
-                Balkrishna Pokharel
-              </h2>
-              <h3 className="text-2xl py-2 md:text-3xl">
-                React Developer || Node Developer
-              </h3>
-              <p className="text-md py-3 leading-8 text-gray-800 md:text-lg max-w- mx-auto dark:text-white">
-                CS & IT Students
-              </p>
-            </div>
-            <div className="text-5xl flex justify-center gap-16 text-gray-600 dark:text-white">
-              <Link href="https://github.com/krishbale">
-                {" "}
-                <AiFillGithub />
-              </Link>
-              <Link
-                href={
-                  "https://www.linkedin.com/in/balkrishna-pokharel-600a4814a/"
-                }
-              >
-                {" "}
-                <AiFillLinkedin />
-              </Link>
-              <Link href="https://medium.com/@sushil.pokharel.7528">
-                <BsMedium />
-              </Link>
-            </div>
-            <div className="relative mx-auto bg-gradient-to-t from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96 ">
-              <Image src={profile} alt="" />
+            <div className="lg:flex flex-col  ">
+              <div className=" text-center p-10 dark:text-white ">
+                <p className=" text-1xl py-2 text-teal-600  font-medium md:text-3xl">
+                  Hello Everyone, I am{" "}
+                </p>
+                <h2 className=" text-5xl py-2 text-teal-600  font-medium md:text-6xl">
+                  Balkrishna Pokharel
+                </h2>
+                <h3 className="text-2xl py-2 md:text-3xl text-teal-100" >Software Engineer</h3>
+                <p className="text-md py-3 leading-8 text-gray-800 md:text-lg max-w- mx-auto dark:text-white">
+                  I have experience on designing and building web-application and deploying them.<br/>
+                  
+                </p>
+              </div>
+              <div className="text-5xl flex justify-center gap-10 text-gray-600 dark:text-white">
+                <Link href="https://github.com/krishbale">
+                  {" "}
+                  <AiFillGithub />
+                </Link>
+                <Link
+                  href={
+                    "https://www.linkedin.com/in/balkrishna-pokharel-600a4814a/"
+                  }
+                >
+                  {" "}
+                  <AiFillLinkedin />
+                </Link>
+                <Link href="https://medium.com/@sushil.pokharel.7528">
+                  <BsMedium />
+                </Link>
+              </div>
+              <div className="relative mx-auto bg-gradient-to-t from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96 ">
+                <Image src={profile} alt="" />
+              </div>
             </div>
           </section>
-          <section>
+          {/* <section>
             <div className="dark:text-white">
               <h3 className="text-3xl py-1 leading-8 text-gray-800 dark:text-white">
                 About me
@@ -218,7 +222,7 @@ export default function Home() {
                 </Link>
               </p>
             </div>
-          </section>
+          </section> */}
         </main>
       </div>
     </>
