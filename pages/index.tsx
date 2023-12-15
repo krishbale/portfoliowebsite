@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import { useState } from "react";
 import Hero from "@/components/Hero";
 export default function Home() {
-  const [darkmode, setDarkmode] = useState(true);
+  const [darkmode, setDarkmode] = useState(false);
   return (
     <>
       <div className={darkmode ? "dark" : ""}>
