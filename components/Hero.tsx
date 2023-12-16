@@ -37,14 +37,14 @@ const Hero = ({darkmode,setDarkmode}:ICardProps) => {
             </nav>
             <div className="lg:flex flex-col  ">
               <div className=" text-center p-10 dark:text-white ">
-                <p className=" text-1xl py-2 text-teal-600  font-medium md:text-3xl">
-                  Hello Everyone, I am{" "}
+                <p className=" text-1xl py-2 text-teal-400  font-medium md:text-3xl">
+                  Hello , I am{" "}
                 </p>
                 <h2 className=" text-5xl py-2 text-teal-500  font-medium md:text-6xl">
                   Balkrishna Pokharel, 
                 </h2>
-                <h3 className="text-2xl py-2 md:text-3xl text-teal-400" >Software Engineer</h3>
-                <p className="text-md py-3 leading-8 md:text-lg max-w- mx-auto dark:text-teal-200">
+                <h3 className="text-2xl py-2 md:text-3xl text-teal-500" >Full Stack Developer</h3>
+                <p className="text-md py-3 leading-8 md:text-lg max-w- mx-auto dark:text-white">
                   I have experience on designing and building web-application and deploying them.<br/>
                 </p>
               </div>
