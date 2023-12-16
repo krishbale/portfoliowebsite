@@ -68,7 +68,7 @@ const portfolio = () => {
 
                   <p className="font-normal text-gray-500 dark:text-white text-sm md:text-base">
                     {" "}
-                    Reflective to original with Authorization
+                    Reflective to original with Authoriza
                     <br /> Built-in video player 
                   </p>
                 </div>
