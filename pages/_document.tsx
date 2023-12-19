@@ -6,8 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <script>
-      <Script src="./clarity.js" />
-
+      <Script src="./clarity.js" defer />
       </script>
       <body>
         <Main />
