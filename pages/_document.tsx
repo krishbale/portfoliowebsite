@@ -5,7 +5,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <script>
       <Script src="./clarity.js" />
+
+      </script>
       <body>
         <Main />
         <NextScript />
