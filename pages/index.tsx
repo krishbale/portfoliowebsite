@@ -14,6 +14,7 @@ export default function Home() {
       <div className={darkmode ? "dark" : ""}>
         <Head>
         <meta name="msvalidate.01" content="D6490A892774EEBC8C7CF385BB62FCAF" />
+        
           <title>Balkrishna Pokharel Portfolio</title>
           <meta name="Balkrishna Pokharel " content="The portfolio website of Balkrishna Pokharel who is senior Software Engineer" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
