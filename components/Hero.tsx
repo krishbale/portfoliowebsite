@@ -20,9 +20,9 @@ const Hero = ({darkmode,setDarkmode}:ICardProps) => {
     <div>
          <section className="min-h-screen">
             <nav className=" py-10 mb-12 flex justify-between dark:text-white">
-              <h1 className="text-xl font-burtons">Balkrishna Pokharel</h1>
+              <h1 className="text-xl  font-burtons">Balkrishna Pokharel</h1>
               <ul className="flex items-center">
-                <li className=" cursor-pointer text-2xl">
+                <li className=" animate-pulse cursor-pointer text-2xl">
                   <BsFillMoonStarsFill onClick={() => setDarkmode(!darkmode)} />
                 </li>
                    <li>
@@ -43,7 +43,7 @@ const Hero = ({darkmode,setDarkmode}:ICardProps) => {
                 <h2 className=" text-5xl py-2 text-teal-500  font-medium md:text-6xl">
                   Balkrishna Pokharel, 
                 </h2>
-                <h3 className="text-2xl py-2 md:text-3xl text-teal-500" >Full Stack Developer</h3>
+                <h3 className="text-2xl py-2 md:text-3xl   text-teal-500" >Full Stack Developer</h3>
                 <p className="text-md py-3 leading-8 md:text-lg max-w- mx-auto dark:text-white">
                   I have experience on designing and building web-application and deploying them.<br/>
                 </p>
@@ -65,7 +65,7 @@ const Hero = ({darkmode,setDarkmode}:ICardProps) => {
                   <BsMedium />
                 </Link>
               </div>
-              <div className="relative mx-auto bg-gradient-to-t from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96 ">
+              <div className="relative mx-auto bg-gradient-to-t from-teal-500 rounded-full  w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96 ">
                 <Image src={profile} alt="" />
               </div>
             </div>
